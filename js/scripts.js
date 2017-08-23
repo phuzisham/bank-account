@@ -1,6 +1,6 @@
 function BankAccount(name, initialBalance) {
-  this.balance = initialBalance;
   this.name = name;
+  this.balance = initialBalance;
 }
 
 BankAccount.prototype.updateBalance = function (amount1, amount2) {
@@ -23,7 +23,7 @@ $(document).ready(function() {
     var newBankAccount = new BankAccount(name, initialDeposit);
 
     $("#nameBank").text(newBankAccount.name);
-    $("#balance").text(newBankAccount.balance);
+    $("#balance").text(newBankAccount.balance.toFixed(2));
 
     $(".well h3").show();
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
       var withdrawl = parseInt($("#withdrawl").val());
       newBankAccount.updateBalance(deposit, withdrawl);
 
-      $("#balance").text(newBankAccount.balance);
+      $("#balance").text(newBankAccount.balance.toFixed(2));
 
       $("#deposit").val('');
       $("#withdrawl").val('');

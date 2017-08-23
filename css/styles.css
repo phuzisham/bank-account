@@ -1,19 +1,22 @@
-button {
-  float: right;
-}
 body {
   background: #CFF1F1;
 }
+
 .jumbotron {
   background-color: #02B4B5;
   color: #ffffff;
-}
-.well h3 {
-  display: none;
 }
 
 .well {
   height: 100px;
   background: #02B4B5;
   color: #ffffff;
+}
+
+.well h3 {
+  display: none;
+}
+
+button {
+  float: right;
 }
