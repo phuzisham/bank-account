@@ -9,7 +9,7 @@
 
 _Application to track account balance._
 
-![Screenshot](https://github.com/phuzisham/track-suggester/blob/master/img/cap.png "Screen Capture")
+![Screenshot](https://github.com/phuzisham/bank-account/blob/master/img/cap.png "Screen Capture")
 
 ## Support and contact details
 
